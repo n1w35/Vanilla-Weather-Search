@@ -15,21 +15,32 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter the city" required />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter the city"
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Amsterdam</h1>
-          <p>
-            Monday 20:07, broken clouds
-            <br />
-            Humidity: 84%, Wind: 4.63km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Amsterdam</h1>
+            <p class="weather-app-details">
+              Monday 20:07, broken clouds
+              <br />
+              <strong>Humidity:</strong> 84%, <strong>Wind:</strong> 4.63km/h
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">⛅</div>
+            <div class="weather-app-temperature">12</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
-        <div>⛅ 12°C</div>
       </main>
       <footer>
         Coded by
