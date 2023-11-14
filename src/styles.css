@@ -1,11 +1,11 @@
 body {
-  background-color: #dbbfc5;
+  background-image: url("https://i.redd.it/cktp6f8742w41.jpg");
   font-family: "Josefin Sans", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
 a {
-  color: #aa7f89;
+  color: #c9a6ae;
   text-decoration: none;
 }
 
@@ -14,7 +14,8 @@ header {
   padding: 0 0 30px 0;
 }
 .weather-app {
-  background-color: rgb(182, 149, 159);
+  background-color: rgb(182, 149, 159, 0.5);
+
   max-width: 600px;
   margin: 50px auto;
   border-radius: 18px;
@@ -24,6 +25,7 @@ header {
 
 .search-form-input {
   background-color: #dbbfc5;
+  opacity: 0.6;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -33,6 +35,7 @@ header {
 
 .search-form-button {
   background: #c9a6ae;
+  opacity: 0.6;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -51,13 +54,14 @@ main {
 }
 
 .weather-app-city {
+  opacity: 0.6;
   margin: 0;
   font-size: 38px;
   line-height: 48px;
 }
 .weather-app-details {
   font-size: 16px;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(39, 33, 66, 0.5);
   line-height: 20px;
 }
 
@@ -78,11 +82,13 @@ main {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
+  opacity: 0.6;
 }
 
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
+  opacity: 0.6;
 }
 
 .weather-forecast {
@@ -93,7 +99,7 @@ main {
 
 .weather-forecast-date {
   text-align: center;
-  color: rgba(39, 33, 66, 0.4);
+  color: rgba(39, 33, 66, 0.5);
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 10px;
